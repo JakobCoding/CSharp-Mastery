@@ -42,3 +42,7 @@
 - 
 
 ### ***Tutorial 11 - Understanding Frameworks and Compiling*** 
+### ***Understanding Frameworks and Compiling***
+
+- In .NET the **.NET Core Framework** includes components for building web apps, APIs, and other applications efficiently.
+- **Compiling:** This is the process of converting human-readable code (written in languages like C#) into machine code that a computer can execute. A compiler takes the source code, checks it for errors, optimizes it, and produces an executable file. In .NET, the C# compiler translates your code into an intermediate language (IL), which is then further processed by the .NET runtime.
