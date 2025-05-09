@@ -4,9 +4,9 @@
 
 1. **CRM System** - Becuse Nearly every Business has some form of CRM system and I will quite likey be working on CRM systems as a .NET developer
 
-## **Section 1**:  UPDATED: Introduction, Overview of Visual Studio, DataTypes And Variables
+## **Section 1**: Introduction, DataTypes And Variables
 
-### ***Tutorial 10 - History of C#***
+### ***History of C#***
 
 ### *C# in Enterprise Software Development and what its Used for*
 
@@ -39,9 +39,7 @@
 - **Enterprise Adoption** - C# has become a dominant language in enterprise software development, powering many mission-critical applications.
 - **Versatility** - The language’s broad capabilities allow it to be used in a wide range of domains, from games to mobile apps and a lot of companies use it..
 - **Rich Ecosystem** - The .NET ecosystem provides a wealth of libraries, tools and frameworks to support C# developers, its ecosystem allows for efficient problem solving as a lot of developers use it and there is alot of resources and tools available to help developers along the way with whatever they are working on and when problems arise you are able to find solutions very quickly because someone else has probably already run into the problem before.
-- 
 
-### ***Tutorial 11 - Understanding Frameworks and Compiling*** 
 ### ***Understanding Frameworks and Compiling***
 
 - In .NET the **.NET Core Framework** includes components for building web apps, APIs, and other applications efficiently.
