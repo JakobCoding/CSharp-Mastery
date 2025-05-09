@@ -1,10 +1,45 @@
 # C# Masterclass - Notes (Udemy)
 
-## *Project Ideas to Land a Job as .NET Developer*
+## *Project Ideas for my .NET Developer Journey*
 
-1. **CRM System** - Becuse Nearly every Business has some form of CRM system and I will quite likey be working on CRM systems as a .NET developer
+1. ***Task Management App (To-Do List)***
+Implement features like:
+- User authentication (ASP.NET Core Identity)
+- Real-time updates (SignalR)
+- Cloud integration (Azure Functions & Storage)
+2. ***RESTful API with Frontend Client***
+A well-structured API project can highlight your backend expertise. Consider:
+- Building a RESTful API with ASP.NET Core
+- Consuming it with a React frontend
+- Implementing JWT authentication for security
+3. ***Library Management System***
+A CRUD-based project that showcases:
+- Entity Framework Core for database operations
+- Role-based authentication (Admin vs. User)
+- Azure SQL Database for cloud storage
+4. ***Blog Platform with CMS Features***
+A content management system (CMS) demonstrates full-stack skills:
+- ASP.NET Core MVC for backend logic
+- React for dynamic UI
+- Markdown support for blog formatting
+5. ***E-Commerce Backend API***
+A scalable API project that includes:
+- Product catalog management
+- Order processing & payment integration
+- Azure App Services for deployment
+6. ***Personal Budget Tracker***
+A finance tracking app that showcases:
+- Data visualization with charts (Chart.js)
+- Secure user authentication
+- Cloud-based storage (Azure Blob Storage)
+7. ***Online Quiz Application***
+A quiz platform with:
+- Timed quizzes & scoring
+- Leaderboard functionality
+- React frontend with ASP.NET Core backend
 
-## **Section 1**: Introduction, DataTypes And Variables
+
+## **Section 1**: History, DataTypes And Variables
 
 ### ***History of C#***
 
