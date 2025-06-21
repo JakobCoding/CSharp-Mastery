@@ -8,15 +8,89 @@ internal class Program
         Console.WriteLine(Math.Abs(-40));
         // Math.Sqrt() provides square root of number
         Console.WriteLine(Math.Sqrt(36));
-        Console.WriteLine(5 + 8);
-        Console.WriteLine(5 - 8);
-        Console.WriteLine(5 / 8);
-        Console.WriteLine(5 % 6);
-        int num = 6;
-        num++;
-        num = 7;
-        num--;
-        Console.WriteLine(num);
+        // Math.Pow() provides power of a number
+        Console.WriteLine(Math.Pow(2, 3)); // 2^3 = 8
+        // Math.Max() provides the maximum of two numbers
+        Console.WriteLine(Math.Max(10, 20));
+        // Math.Min() provides the minimum of two numbers
+        Console.WriteLine(Math.Min(10, 20));
+        // Math.Round() rounds a number to the nearest integer
+        Console.WriteLine(Math.Round(3.7)); // rounds to 4
+        Console.WriteLine(Math.Round(3.4)); // rounds to 3
+        // Math.Ceiling() rounds a number up to the nearest integer
+        Console.WriteLine(Math.Ceiling(3.1)); // rounds to 4
+        // Math.Floor() rounds a number down to the nearest integer
+        Console.WriteLine(Math.Floor(3.9)); // rounds to 3
+        // Math.PI provides the value of pi
+        Console.WriteLine(Math.PI); // approximately 3.14159
+        // Math.E provides the value of e (Euler's number)
+        Console.WriteLine(Math.E); // approximately 2.71828
+        // Math.Log() provides the natural logarithm of a number
+        Console.WriteLine(Math.Log(10)); // natural logarithm of 10
+
+        // Working with Variables
+        int myNum = 5; // integer variable
+        double myDoubleNum = 5.99; // double variable
+        char myLetter = 'D'; // character variable
+        bool myBool = true; // boolean variable
+        string myText = "Hello"; // string variable
+        // Printing variables
+        Console.WriteLine(myNum);
+        Console.WriteLine(myDoubleNum);
+        Console.WriteLine(myLetter);
+        Console.WriteLine(myBool);
+        Console.WriteLine(myText);
+        // Performing arithmetic operations
+        Console.WriteLine(5 + 3); // addition
+        Console.WriteLine(5 - 3); // subtraction
+        Console.WriteLine(5 * 3); // multiplication
+        Console.WriteLine(5 / 3); // division
+        Console.WriteLine(5 % 3); // modulus (remainder)
+        // Incrementing and decrementing a variable
+        int x = 10;
+        x++; // increment by 1
+        Console.WriteLine(x); // prints 11
+        x--; // decrement by 1
+        Console.WriteLine(x); // prints 10
+        Console.WriteLine(x);
+        // Performing arithmetic operations with variables
+        Console.WriteLine(myNum + myDoubleNum); // addition with different types
+        Console.WriteLine(myNum - 2); // subtraction with integer
+        Console.WriteLine(myDoubleNum * 2); // multiplication with double
+        Console.WriteLine(myLetter);
+        Console.WriteLine(myBool);
+        // Performing arithmetic operations with literals
+        Console.WriteLine(myText);
+        Console.WriteLine(5 + 3); // addition with literals
+        Console.WriteLine(5 - 3);
+        Console.WriteLine(5 * 3); // multiplication with literals
+        Console.WriteLine(5 / 3); // division with literals
+        Console.WriteLine(5 % 3); // modulus with literals
+        // Performing arithmetic operations with variables and literals
+        Console.WriteLine(myNum + 2); // addition with variable and literal
+        Console.WriteLine(myDoubleNum - 1.99); // subtraction with variable and literal
+        Console.WriteLine(myNum * 2); // multiplication with variable and literal
+        Console.WriteLine(myLetter);
+        Console.WriteLine(myBool);
+        Console.WriteLine(myText);
+        // Performing arithmetic operations with variables and literals
+        Console.WriteLine(5 + 8); // addition with literals
+        Console.WriteLine(5 - 2); // subtraction with literals
+        Console.WriteLine(5 * 3); // multiplication with literals
+        Console.WriteLine(5 / 2); // division with literals
+        Console.WriteLine(5 % 2); // modulus with literals
+        // Working with Constants
+        const double PI = 3.14159; // constant variable
+        Console.WriteLine(PI); // prints the value of PI
+        // Uncommenting the next line will cause an error because PI is a constant
+        // PI = 3.14; // this will cause an error because PI is a constant
+        // Working with User Input
+        `   
+
+
+
+
+
 
 
         //Working With Strings
@@ -29,15 +103,6 @@ internal class Program
         Console.WriteLine(phrase.IndexOf("Academy"));// index 7 
                                                      // Substring method prints out a string from a certain index
         Console.WriteLine(phrase.Substring(7, 3));
-
-
-        //string phrase = "Jake's Academy"; // This is a string
-        //char grade = 'A'; // can only have one character
-        //int jakesAge = 39; // showing how to assign an int
-        //double gpa = 3.2; // doubles are decimals 
-        //bool isMale = true; // booleans produce yes or no values 
-
-
 
         string characterName = "Jake";
         int characterAge = 39;
