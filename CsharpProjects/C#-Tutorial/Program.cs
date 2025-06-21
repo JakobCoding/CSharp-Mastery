@@ -84,8 +84,24 @@ internal class Program
         Console.WriteLine(PI); // prints the value of PI
         // Uncommenting the next line will cause an error because PI is a constant
         // PI = 3.14; // this will cause an error because PI is a constant
+       
         // Working with User Input
-        `   
+        Console.WriteLine("Enter your name: ");
+        string userName = Console.ReadLine(); // reads user input
+        Console.WriteLine("Hello, " + userName + "!"); // prints a greeting with the user's name
+        Console.WriteLine("Enter your age: ");
+        string userAgeInput = Console.ReadLine(); // reads user input for age
+        int userAge;
+        // Try to parse the user input to an integer
+        if (int.TryParse(userAgeInput, out userAge))
+        {
+            Console.WriteLine("You are " + userAge + " years old.");
+        }
+        else
+        {
+            Console.WriteLine("Invalid age input. Please enter a valid number.");
+        }
+
 
 
 
